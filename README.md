@@ -1,2 +1,2 @@
-# Fashya-Nuriza-Siti-Sangadji-TI-12
+# Fashya-Nuriza-Siti-Sangadji
 Tugas Pemrograman Web 2021

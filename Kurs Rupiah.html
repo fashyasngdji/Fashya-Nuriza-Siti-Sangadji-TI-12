@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <script>
+        function hitungKurs()
+        {
+            var Dollar, Rupiah;
+
+            Dollar = parseInt(document.getElementById("dollar").value);
+            Rupiah = Dollar * 14650
+            document.getElementById("rupiah").value = 'Rp.' + Rupiah
+        }
+    
+    </script>
+</head>
+<body>
+    <h1>Menghitung Kurs Rupiah</h1>
+    <form>
+        <p>Dollar: <input type="text" id="dollar"></p>
+        <p><input type="button" value="Convert" onclick="hitungKurs()"></p>
+        <p>Rupiah: <input type="text" id="rupiah"></p>
+    </form>
+</body>
+</html>
